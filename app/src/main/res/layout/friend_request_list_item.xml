@@ -14,7 +14,7 @@
         <ImageView
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:src="@mipmap/ic_launcher"/>
+            android:src="@drawable/image_icon"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -22,6 +22,7 @@
             android:orientation="vertical">
 
             <TextView
+                android:id="@+id/nameTxt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="사람 이름이 나옴"/>
@@ -37,6 +38,7 @@
                     android:text="함께 아는 친구"/>
 
                 <TextView
+                    android:id="@+id/friendCountTxt"
                     android:layout_marginLeft="5dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
